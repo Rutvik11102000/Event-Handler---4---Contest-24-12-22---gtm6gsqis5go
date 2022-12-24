@@ -6,9 +6,11 @@ const App = () => {
     switch(event.detail){
       case 1:{
         console.log("single click")
+        break
       }
       case 2:{
         console.log("double click")
+        break
       }
       default:{
         break
