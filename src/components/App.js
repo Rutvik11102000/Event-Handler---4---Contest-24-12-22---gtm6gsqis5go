@@ -5,11 +5,11 @@ const App = () => {
   const handleDoubleClick = (event) =>{
     switch(event.detail){
       case 1:{
-        console.log("single click")
+        console.log("I was not double clicked")
         break
       }
       case 2:{
-        console.log("double click")
+        console.log("I was double clicked")
         break
       }
       default:{
